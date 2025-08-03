@@ -3,6 +3,7 @@ site_url: https://ageorgoulas.github.io/onefile
 theme:
   name: material
 nav:
+  - index.md
   - introduction.md
   - setup.md
   - packaging.md
