@@ -10,3 +10,7 @@ nav:
   - linting.md
   - type_checking.md
   - appendix.md
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
