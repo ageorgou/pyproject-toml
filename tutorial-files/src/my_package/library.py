@@ -17,7 +17,7 @@ def tokenize_input(input: str, token_length: int) -> list[str]:
             start_index += token_length
 
 
-def process_file(filename: str):
+def process_file(filename: str) -> list[str]:
     """Read a file and break down its contents.
     
     The first line contains the string to be tokenized. The second line
@@ -27,4 +27,3 @@ def process_file(filename: str):
         input_string = next(f)
         token_length = next(f)
     tokens = tokenize_input(input_string, token_length)
-    
