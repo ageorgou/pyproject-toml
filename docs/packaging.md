@@ -94,6 +94,43 @@ dependencies = [
 
 ## Entrypoints
 
+When writing a package, you sometimes want to create a way of accessing
+its functionality from the command line. For example, the `pytest` package
+creates an executable that can be called with `pytest` on a terminal.
+You can use `pyproject.toml` to define any command-line entrypoints
+that your package provides.
+
+Add the following section in your file:
+
+```toml
+[project.scripts]
+demo = "my_package.cli:run"
+```
+
+With this configuration, when your package is installed, `pip` will create
+a script that:
+
+- can be executed with the command `demo`, and
+- when executed, it runs the function `run` from `cli.py` in your package.
+
+!!! example "Try out the entrypoint"
+
+    Install your package again with `python -m pip install .` to have
+    the new change take effect.
+    When the re-installation is complete, run `demo` on the terminal.
+
+    You should see something like:
+    ```
+    Trying out combine_arguments with x='A', y='B', z=4
+    Result is A4
+    ```
+
+    Open the `cli.py` file and verify that this is the output from
+    the `run` function.
+
+You have now made it possible for others to use your package both
+as a library and as a command-line tool!
+
 ## Further resources
 - The Python Packaging Authority (PyPA) provides a comprehensive
 [guide to writing a pyproject.toml file][pypa-guide].
