@@ -31,8 +31,8 @@ Sections that look like this:
 
 !!! example "Try it out"
 
-invite you to experiment. They are useful for seeing the impact
-of the configuration you have built.
+invite you to experiment. They have you see the effect
+of the configuration you have built, and are a core part of the tutorial.
 
 Sections that look like this:
 
