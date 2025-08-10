@@ -8,7 +8,8 @@ file that can specify information about a project itself,
 as well as configuration options for various useful tools.
 
 In this tutorial, we'll explore how to to use this file for packaging
-a project and for customizing tools like linters and type checkers.
+a project and for customizing tools like linters and type checkers,
+with the goal of improving the quality of a codebase.
 
 ## Learning goals
 
