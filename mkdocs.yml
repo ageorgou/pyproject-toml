@@ -2,6 +2,9 @@ site_name: A tour of pyproject.toml
 site_url: https://ageorgoulas.github.io/onefile
 theme:
   name: material
+  features:
+    - content.tabs.link
+
 nav:
   - index.md
   - introduction.md
@@ -14,3 +17,6 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+

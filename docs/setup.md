@@ -4,6 +4,7 @@ The tutorial will take you through using `pyproject.toml` in an example
 codebase. Before you start, you need to set up your environment.
 
 These setup steps assume that you have access to:
+
 - a Python installation (version 3.8 or more recent),
 - a way to run Python from a shell,
 - an internet connection.
@@ -23,17 +24,55 @@ from the Python standard library.
 
 
 1. In a shell, create a virtual environment by running the command:
-   ```console
-   python3 -m venv pyproject-tutorial
-   ```
-1. Activate the environment with
-    ```console
-    source pyproject-tutorial/bin/activate
-    ```
 
+    === "Linux/Mac/WSL"
+        ```console
+        python3.12 -m venv pyproject-tutorial
+        ```
+
+    === "Windows"
+        ```console
+        py -m venv pyproject-tutorial
+        ```
+
+1. Activate the environment with
+
+    === "Linux/Mac/WSL"
+
+        ```console
+        source pyproject-tutorial/bin/activate
+        ```
+
+    === "Windows"
+        ```console
+        pyproject-tutorial\Scripts\activate
+        ```
+
+You will be installing Python packages into this virtual environment
+through the course of the tutorial. While you keep this shell open,
+the environment will remain active unless you deactivate it.
 
 ## Get the starter code
 
-- Copy the starting code
+Download the starter code from [...].
+
+You should have the following structure:
+
+```
+(project root)
+├── pyproject.toml
+└── src
+    ├── LICENSE
+    └── my_package
+        ├── __init__.py
+        ├── cli.py
+        ├── experimental.py
+        └── library.py
+```
+
+The `pyproject.toml` contains a very basic configuration, which you will
+be extending during the tutorial.
+
+You're now ready to start!
 
 [venv-guide]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments
