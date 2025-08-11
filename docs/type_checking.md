@@ -67,7 +67,7 @@ strict = true
 
 !!! example "Try the new configuration"
 
-    Rerun mypy with `python -m mypy`. You should now see more errors
+    Rerun mypy with `python -m mypy src`. You should now see more errors
     across two files.
 
     For `cli.py`, mypy is complaining about missing type annotations.
@@ -125,5 +125,5 @@ and a detailed list of [available configuration options][mypy-config].
 
 [duck-typing]: https://docs.python.org/3/glossary.html#term-duck-typing
 [mypy-getting-started]: https://mypy.readthedocs.io/en/stable/getting_started.html
-[mypy-config]: https://mypy.readthedocs.io/en/stable/getting_started.html
+[mypy-config]: https://mypy.readthedocs.io/en/stable/config_file.html#config-file-format
 [pyright]: https://microsoft.github.io/pyright/#/

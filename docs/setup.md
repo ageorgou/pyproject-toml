@@ -72,6 +72,11 @@ You should have the following structure:
 
 The `pyproject.toml` contains a very basic configuration, which you will
 be extending during the tutorial.
+The rest of the code is only there as an example and does not do anything
+particularly interesting!
+It has also purposefully been written to contain some issues, which you
+will be fixing with the tools covered in the tutorial.
+
 
 You're now ready to start!
 

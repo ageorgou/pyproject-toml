@@ -40,7 +40,7 @@ Now that it's installed, we can use the linter.
 
 !!! example "Run the linter"
 
-    Run `python -m ruff src` from the root of your project.
+    Run `python -m ruff check src` from the root of your project.
     
     Look at the error reported about an unused variable.
     The error is correctly identified, but the solution suggested is
