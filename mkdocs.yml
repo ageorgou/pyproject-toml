@@ -1,5 +1,5 @@
 site_name: A tour of pyproject.toml
-site_url: https://ageorgoulas.github.io/onefile
+site_url: https://ageorgoulas.github.io/pyproject-toml
 theme:
   name: material
   features:
