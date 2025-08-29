@@ -26,13 +26,3 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
-      - name: Archive sample code
-        if: github.ref_type == 'tag'
-        run: zip -r pyproject-sample.zip tutorial-files
-      - name: Create release
-        if: github.ref_type == 'tag'
-        uses: softprops/action-gh-release@v2
-        with:
-          files: |
-            pyproject-sample.zip
-          make_latest: true
