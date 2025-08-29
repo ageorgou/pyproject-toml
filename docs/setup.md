@@ -54,8 +54,8 @@ the environment will remain active unless you deactivate it.
 
 ## Get the starter code
 
-Download the starter code from
-https://github.com/ageorgou/pyproject-toml/releases/latest.
+Download the starter code by going to the [Releases page][release],
+downloading the `pyproject-sample.zip` file and unzipping it.
 
 You should have the following structure:
 
@@ -82,3 +82,4 @@ will be fixing with the tools covered in the tutorial.
 You're now ready to start!
 
 [venv-guide]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments
+[release]: https://github.com/ageorgou/pyproject-toml/releases/latest
