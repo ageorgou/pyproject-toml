@@ -1,0 +1,7 @@
+[flake8]
+# Add more filename patterns to the list of files that are ignored from checks
+extend-exclude = experimental*
+max-line-length = 100
+max-doc-length = 50
+# Ignore a specific error for a particular file
+per-file-ignores = bad_strings.py:F541
