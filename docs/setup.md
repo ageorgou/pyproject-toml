@@ -54,7 +54,8 @@ the environment will remain active unless you deactivate it.
 
 ## Get the starter code
 
-Download the starter code from [...].
+Download the starter code from
+https://github.com/ageorgou/pyproject-toml/releases/latest.
 
 You should have the following structure:
 
