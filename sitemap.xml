@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://ageorgoulas.github.io/pyproject-toml/</loc>
+         <lastmod>2025-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ageorgoulas.github.io/pyproject-toml/appendix/</loc>
+         <lastmod>2025-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ageorgoulas.github.io/pyproject-toml/introduction/</loc>
+         <lastmod>2025-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ageorgoulas.github.io/pyproject-toml/linting/</loc>
+         <lastmod>2025-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ageorgoulas.github.io/pyproject-toml/packaging/</loc>
+         <lastmod>2025-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ageorgoulas.github.io/pyproject-toml/setup/</loc>
+         <lastmod>2025-09-02</lastmod>
+    </url>
+    <url>
+         <loc>https://ageorgoulas.github.io/pyproject-toml/type_checking/</loc>
+         <lastmod>2025-09-02</lastmod>
+    </url>
+</urlset>
